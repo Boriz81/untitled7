@@ -7,6 +7,7 @@ public class Main {
         Triangle triangle = new Triangle();
         triangle.height = 23.4; triangle.base = 34.5;
         Circle circle = new Circle();
+        circle.radius = 3.6;
         Square square = new Square();
         Rectangle rectangle = new Rectangle();
 
@@ -14,6 +15,9 @@ public class Main {
         System.out.println(triangle.area());
         System.out.println(square.area());
         System.out.println(rectangle.area());
+
+        System.out.println(String.format("Число ПИ: %.5f", Math.PI));
+        System.out.println(String.format("%.5f", circle.area()));
 
 
     }
